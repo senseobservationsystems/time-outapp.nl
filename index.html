@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Time Out! App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body{
+        padding-left:0;
+        padding-right:0;
+      }
+
+      .left{
+        float:left;
+      }
+      .clear{
+        clear:both;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        /*height:140px;
+        margin: 0px 0;
+        padding:10px 0 0px 160px;
+        background-image:url('img/logo.png');
+        background-repeat:no-repeat;
+        overflow:visible;*/
+        color:#ebebeb;
+      }
+      .jumbotron .logo{
+        height:140px;
+        background-image:url('img/logo.png');
+        background-repeat:no-repeat;
+
+      }
+      .jumbotron h1 {
+        line-height: 1;
+      }
+
+      .lead{
+        font-size:18px;
+      }
+   
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+      .wide-row{
+        margin-left:-20px;
+        margin-right:-20px;
+        padding:20px;
+      }
+      .blue-row{
+        background-color:#0f8eb9;
+               /*color:#ebebeb;*/
+        /*color:#fcfcfc;*/
+      }
+      .grey-row{
+        background-color:#e3e3e3;
+      }
+      .black-row{
+        background-color:#222;
+        color:#f1f1f1;
+      }
+
+      .step-number{
+         background-image:url('img/bullet.png');
+         background-repeat:no-repeat;
+         width:81px;
+         height:81px;
+         color:#fcfcfc;
+         font-size:48px;
+         font-weight:bold;
+         padding:27px;
+       }
+
+       ul.media li{
+         padding-bottom:10px;
+       }
+        ul.companies li{
+          padding-bottom:10px;
+        }
+       ul.companies i{
+        padding-right:10px;
+      }
+        ul.companies a{
+          color:#f1f1f1;
+        }
+
+      .flex-video {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+        margin-bottom: 16px;
+        overflow: hidden;
+      }
+
+      .flex-video.widescreen { padding-bottom: 57.25%; }
+      .flex-video.vimeo { padding-top: 0; }
+
+      .flex-video iframe,
+      .flex-video object,
+      .flex-video embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+        .flex-video { padding-top: 0; }
+      }
+
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    </head>
+
+  <body>
+    <div class="navbar navbar-static-top navbar-inverse">
+      <div class="navbar-inner">
+      <div class="container-narrow">
+          <a class="brand">Time Out! App</a>
+    </div>
+    </div>
+  </div>
+  <div class="blue-row wide-row">
+    <div class="container-narrow">
+      <div class="row-fluid jumbotron">
+        <div class="span3 logo"></div>
+        <div class="span9">
+          <h1>Time Out! App</h1>
+          <div class="lead">Geeft mensen de regie over hun relatie terug</div>
+        </div>
+      </div>
+
+
+      <div class="row-fluid">
+        <div class="span5">
+          <p class="lead">
+De TimeOut! App helpt mensen die een relatie hebben waarin geweld wordt gebruikt, om dit geweld te stoppen. De app is een technologische ondersteuning bij de "time-out"-methode*.
+</p>
+              <span class='st_facebook_large' displayText='Facebook'></span>
+              <span class='st_twitter_large' displayText='Tweet'></span>
+              <span class='st_googleplus_large' displayText='Google +'></span>
+              <span class='st_linkedin_large' displayText='LinkedIn'></span>
+<!--
+<p class="lead">
+De app is een technologische ondersteuning bij de “time-out”-methode. Deze methode helpt mensen die te maken hebben met geweld binnen hun relatie om escalatie van geweld te voorkomen. Ze leren om emoties die escalaties van ruzie veroorzaken te herkennen en te hanteren.
+
+</p>-->
+
+          <!--<p class="lead">
+            De Time Out! App helpt mensen die een relatie hebben waarin geweld wordt gebruikt, om dit geweld te stoppen.
+          </p>
+          <p class="lead">
+          De app is een ondersteuning bij de “time-out”-methode. 
+          Deze methode helpt slachtoffers en plegers van partnergeweld.
+        </p>
+        -->
+        </div>
+        <div class="span7">
+          <div class="flex-video widescreen"><iframe src="https://www.youtube-nocookie.com/embed/RZwOQ5yF_jM?rel=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <!--<div class="span8">-->
+          <small>
+            * De “time-out”-methode helpt mensen die te maken hebben met geweld binnen hun relatie om escalatie van geweld te voorkomen. Ze leren om emoties die escalaties van ruzie veroorzaken te herkennen en te hanteren.
+          </small>
+          <!--</div>-->
+        
+       </div>
+    </div>
+  </div>
+  <div class="wide-row">
+  <div class="container-narrow">
+    <div class="row-fluid marketing">
+      <div class="span8">
+        <h3>Zo werkt de app</h3>
+
+        <div class="step clear">
+          <div class="step-number left">
+            1
+          </div>
+          <p>
+            De app wordt ge&iuml;nstalleerd op de smartphones van allebei de partners. Een hulpverlener van het Steunpunt Huiselijk Geweld helpt hierbij.
+          </p>
+        </div>
+        <div class="step clear">
+        <div class="step-number left">
+              2
+            </div>
+            <p>
+              Wanneer &eacute;&eacute;n van de partners voelt dat een ruzie uit de hand loopt, start hij of zij met &eacute;&eacute;n druk op de knop een time-out. De app controleert ook zelf of er ruzie is (of er hard wordt geschreeuwd) en stelt indien nodig zelf een time-out voor.
+
+            </p>
+        </div>
+
+        <div class="step clear">
+          <div class="step-number left">3</div>
+          <p>
+              Tijdens de time-out geeft de app beide partners opdrachten met rustgevende taken, die de gebruiker vooraf zelf heeft ingesteld. Bijvoorbeeld een rondje gaan wandelen, een douche nemen, of naar muziek luisteren.
+          </p>
+        </div> 
+        <div class="step clear">
+          <div class="step-number left">4</div>
+          <p>
+              De app controleert via de locatie van de telefoons of de partners tijdens de time-out bij elkaar wegblijven. Als dit niet zo is, belt de app automatisch een contactpersonen. Dit is bijvoorbeeld een vriend, familielid.
+          </p>
+        </div>
+        <div class="step clear">
+          <div class="step-number left">5</div>
+          <p>
+              Van tijd tot tijd vraagt de app aan beide partners hoe ze zich voelen. Als &eacute;&eacute;n van de partners na afloop van de time-out nog niet gekalmeerd is, belt de app de contactpersoon. Deze contactpersoon kan een luisterend oor bieden en het koppel helpen om de situatie op te lossen.
+          </p>
+        </div>
+      </div>
+      <div class="span4">
+        <div style="text-align:center;">
+          <img src="img/screen1.png" />
+          <img src="img/screen2.png" />
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="grey-row wide-row">
+    <div class="container-narrow">
+      <div class="row-fluid marketing">
+      <div class="span6">
+        <h3>De app in actie</h3>
+        <p>
+            De Time Out! app helpt koppels om zelf en op eigen kracht hun relatie te verbeteren, met steun van familie, vrienden of mensen uit de eigen sociale omgeving. Een hulpverlener blijft wel altijd beschikbaar.
+        </p>
+        <p>
+              De app wordt vanaf begin 2013 ingezet bij cli&euml;nten van het Steunpunt Huiselijk Geweld Eindhoven de Kempen die zelf hebben aangegeven dat ze aan hun relatie willen werken.
+        </p>
+        </div>
+        <div class="span6">
+ <h3>In de media</h3>
+          <ul class="unstyled media">
+            <li><a href="https://twitter.com/LumensGroep">Volg @Lumensgroep op Twitter</a></li>
+            <!-- <li><a href="http://www.radio1.nl/items/67902-live-niels-de-jager-is-in-eindhoven">Radio 1 Uitzending Goedemorgen Nederland</a></li>-->
+            <li><a href="http://www.omroepbrabant.nl/?news/185280802/Smartphone-app+moet+geweld+in+relaties+stoppen.aspx">Omroep Brabant: “Smartphone-app moet geweld in relaties stoppen”</a></li>
+            <li><a href="http://www.youtube.com/watch?v=pl1jD9BitVs">Studio 040: “Een app tegen huiselijk geweld”</a></li>
+            <li><a href="http://www.telegraaf.nl/digitaal/21156537/__App_tegen_huiselijk_geweld__.html">De Telegraaf: “App tegen huiselijk geweld”</a></li>
+            <li><a href="http://langsdeleeuw.vara.nl/media/198913">Langs de leeuw (vanaf 59:00 minuten)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+  <div class="wide-row">
+    <div class="container-narrow">
+      <div class="row-fluid marketing">
+        <div class="span6">
+          <h3>Meer informatie</h3>
+          <h4>Gebruikers</h4>
+          <p>
+ Bent u ge&iuml;nteresseerd in de Time Out! App voor eigen gebruik in uw relatie? Dan kunt u contact opnemen met Steunpunt Huiselijk Geweld.<br />
+ <a href="tel:09001262626">0900 126 26 26</a><br />
+(24 uur per dag, 5 ct per minuut)
+<a href="http://www.huiselijkgeweld.nl">www.huiselijkgeweld.nl</a>
+</p>
+
+
+        </div>
+
+        <div class="span6">
+          <h4>Professionals</h4>
+          <p>
+          Wilt u een persoonlijke toelichting over de Time Out! app? Dan maken wij graag een afspraak met u.<br/>
+          Forra Geense <br/>
+          <a href="tel:0402193333">040 – 21 93 333</a>
+          </p>
+          <h4>Pers</h4>
+          <p>
+          Voor persvragen of aanvullende informatie kunt u terecht bij de afdeling Marketing &amp; Communicatie.<br/>
+          Saskia Withoos<br/>
+          <a href="mailto:withoos@lumensgroep.nl">withoos@lumensgroep.nl</a><br/>
+          <a href="tel:0402193393">040 - 21 93 393</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="black-row wide-row">
+    <div class="container-narrow">
+          <h3>Ontwikkeld door</h3>
+      <div class="row-fluid marketing">
+        <div class="span6">
+          <ul class="unstyled companies">
+            <li><a href="http://www.lumensgroep.nl/"><i class="icon-chevron-right icon-white"></i>Lumens Groep</a></li>
+            <li><a href="http://www.huiselijkgeweldbrabant.nl"><i class="icon-chevron-right icon-white"></i>Steunpunt Huiselijk Geweld Eindhoven de Kempen</a></li>
+          </ul>
+        </div>
+        <div class="span6">
+          <ul class="unstyled companies">
+            <li><a href="http://www.sense-os.nl"><i class="icon-chevron-right icon-white"></i>Sense Observation Systems</a></li>
+            <li><a href="http://www.ask-cs.nl"><i class="icon-chevron-right icon-white"></i>ASK Community Systems</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; 2012</p>
+      </div>
+
+    </div>
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-74c8756a-f944-20c0-7156-94b7b9f1bf41"});</script>
+
+  </body>
+</html>
+
